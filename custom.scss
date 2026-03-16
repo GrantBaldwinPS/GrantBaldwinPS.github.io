@@ -1,0 +1,319 @@
+/*-- scss:defaults --*/
+
+// Colors
+$body-bg: #ffffff;
+$body-color: #1a1a1a;
+$link-color: #8b1a1a;       // deep UCLA blue-adjacent crimson
+$link-hover-color: #5a1010;
+$navbar-bg: #1a1a2e;         // very dark navy
+$navbar-fg: #f0f0f0;
+$navbar-hl: #e8c97a;         // warm gold highlight
+
+// Typography
+$font-family-sans-serif: "Source Serif 4", "Georgia", serif;
+$font-family-monospace: "JetBrains Mono", monospace;
+$font-size-root: 17px;
+$headings-font-family: "Source Serif 4", "Georgia", serif;
+$headings-font-weight: 600;
+$headings-color: #1a1a2e;
+
+// Layout
+$content-padding-top: 2rem;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap');
+
+/* ---- Navbar ---- */
+.navbar {
+  border-bottom: 3px solid $navbar-hl;
+  padding: 0.6rem 1rem;
+
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.02em;
+    color: #f0f0f0 !important;
+  }
+
+  .nav-link {
+    font-size: 0.92rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d8d8d8 !important;
+    padding: 0.4rem 0.85rem !important;
+    transition: color 0.15s ease;
+
+    &:hover, &.active {
+      color: $navbar-hl !important;
+    }
+  }
+}
+
+/* ---- Page body ---- */
+#quarto-content {
+  max-width: 100%;
+  padding: 2.5rem 4rem 4rem;
+}
+
+#quarto-document-content {
+  max-width: 100%;
+}
+
+/* Cosmo theme container override */
+.container, .container-fluid, .container-xxl, .container-xl,
+.container-lg, .container-md, .container-sm {
+  max-width: 100% !important;
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+#quarto-content > * {
+  max-width: 100%;
+}
+
+/* ---- Hide auto title on bio page only ---- */
+body.bio-page #title-block-header {
+  display: none;
+}
+
+/* ---- Bio / index page ---- */
+.bio-container {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin-bottom: 2rem;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bio-photo {
+  img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  }
+}
+
+.bio-links {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  line-height: 2;
+
+  div {
+    white-space: nowrap;
+  }
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+/* ---- Section headings ---- */
+h3 {
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1a1a2e;
+  border-bottom: 2px solid $navbar-hl;
+  padding-bottom: 0.3rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #1a1a2e;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* ---- CV education/awards blocks ---- */
+.cv-entry {
+  margin-bottom: 1rem;
+
+  .cv-title {
+    font-weight: 600;
+  }
+
+  .cv-institution {
+    color: #444;
+  }
+
+  .cv-detail {
+    color: #555;
+    font-size: 0.93rem;
+    margin-left: 1rem;
+  }
+}
+
+/* ---- Research page ---- */
+.research-item {
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid #e8e8e8;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .research-title {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1a1a2e;
+    margin-bottom: 0.2rem;
+  }
+
+  .research-journal {
+    color: #555;
+    font-style: italic;
+    font-size: 0.93rem;
+  }
+
+  .research-abstract {
+    font-size: 0.9rem;
+    color: #444;
+    margin-top: 0.5rem;
+    line-height: 1.6;
+  }
+
+  .research-links {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+
+    a {
+      color: $link-color;
+      margin-right: 1rem;
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
+/* ---- Download button ---- */
+.btn-cv {
+  display: inline-block;
+  background: $navbar-bg;
+  color: #f0f0f0 !important;
+  text-decoration: none !important;
+  padding: 0.45rem 1.1rem;
+  border-radius: 3px;
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: $link-color;
+  }
+}
+
+/* ---- Footer ---- */
+.nav-footer {
+  border-top: 1px solid #ddd;
+  font-size: 0.83rem;
+  color: #777;
+  padding: 1.2rem 0;
+}
+
+/* ---- Inline photos ---- */
+.photo-aside {
+  margin: 1.8rem 0;
+
+  img {
+    border-radius: 4px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.13);
+    display: block;
+    max-width: 100%;
+  }
+
+  p.caption, figcaption {
+    font-size: 0.83rem;
+    color: #777;
+    font-style: italic;
+    margin-top: 0.4rem;
+    text-align: left;
+  }
+}
+
+.photo-aside-center {
+  margin: 1.8rem 0;
+  text-align: center;
+
+  img {
+    border-radius: 4px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.13);
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  p.caption, figcaption {
+    font-size: 0.83rem;
+    color: #777;
+    font-style: italic;
+    margin-top: 0.4rem;
+    text-align: center;
+  }
+}
+
+/* ---- Dropdown abstracts ---- */
+details {
+  margin-top: 0.5rem;
+
+  summary {
+    cursor: pointer;
+    color: $link-color;
+    font-size: 0.85rem;
+    font-style: italic;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    user-select: none;
+
+    &::-webkit-details-marker { display: none; }
+
+    &::before {
+      content: "▸";
+      font-style: normal;
+      transition: transform 0.2s ease;
+      display: inline-block;
+    }
+
+    &:hover { text-decoration: underline; }
+  }
+
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+}
+
+.abstract-body {
+  margin-top: 0.6rem;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid #e8c97a;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.65;
+  background: #fafaf8;
+}
+
+/* ---- Teaching page ---- */
+.teaching-item {
+  margin-bottom: 0.7rem;
+
+  .course-code {
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+}

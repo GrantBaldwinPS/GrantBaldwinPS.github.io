@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "E. Grant Baldwin"
+  sidebar:
+    style: "docked"
+    search: false
+    background: primary
+    foreground: secondary
+    contents: 
+      - text: "About Me"
+        href: index.qmd
+      - text: "C.V."
+        href: cv.qmd
+      - section: "Research"
+        contents: 
+          - dissertation.qmd
+          - research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Contact Me"
+        href: contact.qmd
+
+format:
+  html:
+    theme:
+      - spacelab
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
+    link-external-icon: true
+
+editor: visual

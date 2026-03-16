@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "E. Grant Baldwin"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Bio & CV
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    css: custom.scss
+    toc: false
+    link-external-newwindow: true

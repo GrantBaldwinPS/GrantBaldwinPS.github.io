@@ -1,0 +1,5 @@
+/* css styles */
+/* Changes the color of the site title in the sidebar */
+.sidebar-title {
+  color: white !important;
+}
