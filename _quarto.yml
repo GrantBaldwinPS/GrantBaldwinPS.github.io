@@ -4,10 +4,13 @@ project:
 
 website:
   title: "E. Grant Baldwin"
+  site-url: "https://egrantbaldwin.com"
   navbar:
     left:
       - href: index.qmd
         text: Bio & CV
+      - href: dissertation.qmd
+        text: Dissertation & Job Market Paper
       - href: research.qmd
         text: Research
       - href: teaching.qmd

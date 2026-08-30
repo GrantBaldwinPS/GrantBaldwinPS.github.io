@@ -28,13 +28,15 @@ title: "Bio & CV"
 :::
 
 ::: bio-text
-I am a Ph.D. Candidate in Political Science at the [University of California, Los Angeles](https://polisci.ucla.edu). My research investigates how voters behave and how officials translate voters' preferences into public policy in local and state politics in the United States. 
+I am a Ph.D. Candidate in Political Science at the [University of California, Los Angeles](https://polisci.ucla.edu). My research investigates the relationship between public opinion, elections, and public policy in the U.S. with a particular focus on the “low information” environments of city and state governments.
 
-My dissertation — *The Supply and Demand of Municipal Policy in a Polarized Era* — asks how much voters know about the policy choices of their city governments and whether that knowledge (or lack thereof) strengthens or hinders government accountability. To answer this, I track the policymaking behavior of 484 U.S. cities across 90 issue domains over time and conduct an original survey to test voters' knowledge of their cities' policy choices.
+My dissertation — [*The Supply and Demand of Municipal Policy in a Polarized Era*](dissertation.qmd) — asks how much voters know about the policy choices of their city governments and whether that knowledge (or lack thereof) strengthens or hinders government accountability. To answer this, I track the policymaking behavior of 484 U.S. cities across 90 issue domains over time and conduct an original survey to test voters' knowledge of their cities' policy choices.
 
-My work has been published in [*Urban Affairs Review*](https://journals.sagepub.com/doi/full/10.1177/10780874251414062) and has been supported financially by the [Institute for Humane Studies](https://theihs.org), the [UCLA Division of Graduate Education](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-research-mentorship-program/_), and the [UCLA Institute to Study Hate](https://studyofhate.ucla.edu).
+My work has been published in [*Urban Affairs Review*](https://journals.sagepub.com/doi/full/10.1177/10780874251414062) and has been supported financially by the [Institute for Humane Studies](https://theihs.org), the [Urban Communication Foundation](https://urbancomm.org), and the [UCLA Institute to Study Hate](https://studyofhate.ucla.edu).
 
 [Download CV](files/cv.pdf){.btn-cv}
+
+I am on the 2026-2027 cycle of the academic job market. Click [here](dissertation.qmd##job-market-paper) to read my job market paper.
 :::
 :::::
 

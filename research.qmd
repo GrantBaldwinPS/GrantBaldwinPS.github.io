@@ -2,13 +2,33 @@
 title: "Research"
 ---
 
-I study local (primarily cities) and state politics in the United States. My research examines how information and institutions shape the decisions of both voters and officials in "low-visibility" electoral and policymaking contexts, spanning topics in representation & accountability, voting behavior, public opinion, political geography and racial/ethnic politics.
-
 [Download CV](files/cv.pdf){.btn-cv}
+
+[Read About My Dissertation](dissertation.qmd){.btn-cv}
 
 ------------------------------------------------------------------------
 
 ### Peer-Reviewed Articles
+
+::::: research-item
+::: research-title
+Economic Self-Interest and Support for Redistribution: New Evidence Using Election Results Data
+:::
+
+::: research-journal
+With Jieun Lee, Ben Newman, and G. Agustin Markarian. Conditionally accepted at the *American Political Science Review*.
+:::
+
+<details>
+
+<summary>Abstract</summary>
+
+::: abstract-body
+A formidable corpus of scholarship explores the role of economic self-interest in shaping public support for redistribution. One striking feature of this literature is its near exclusive reliance on reported preferences in surveys, with little-to-no research analyzing revealed preferences in the form of actual voting on redistribution. Leveraging 8 redistributive ballot initiatives across 6 American states and a total of N=73,053 observations of revealed support for redistribution, we uncover consistent evidence that the economic standing of precinct voters is systematically related to their support for redistribution. We find that lower to upper-middle income precincts are each significantly more supportive of redistribution than upper income precincts, with pronounced decreases in support associated with the increasing prevalence of high-income households subject to proposed tax increases. Finally, we observe the largest class differential in support for redistribution in more heavily Republican precincts.  
+:::
+
+</details>
+:::::
 
 ::::::: research-item
 ::: research-title
@@ -50,18 +70,19 @@ With Clayton Becker, Josh Goetz, Ananya Hariharan, Emily Ortiz, and Connor Warsh
 :::: research-links
 [Blog Post](https://studyofhate.ucla.edu/benefit-or-backlash-examining-the-effect-of-contentious-claims-of-antisemitism/)
 
+<details>
+
+<summary>Abstract</summary>
+
+::: abstract-body
+Definitions of prejudice have expanded in recent political discourse, yet the downstream consequences remain unclear. This paper develops a theory of backlash to expanding definitions, arguing that when individuals encounter allegations they feel are exaggerated or false, they become more skeptical of subsequent allegations and less concerned about the relevant form of prejudice. We test this in the context of antisemitism in the U.S., using an original survey experiment (N = 5,110) exposing respondents to an allegation labeling a pro-Palestinian protest as antisemitic. Exposure reduces belief in the validity of a subsequent allegation and lowers assessments of antisemitism's severity in society, supporting a backlash interpretation. These effects appear driven largely by a motivated reasoning process aimed at protecting moral self-image. While our empirical focus is antisemitism, the theory and results are broadly significant for scholars of racism and practitioners engaged in definitional debates over what constitutes prejudice.
+:::
+
+</details>
 ::::
 :::::
 
-::::: research-item
-::: research-title
-Economic Self-Interest and Support for Redistribution: New Evidence Using Election Results Data
-:::
 
-::: research-journal
-With Jieun Lee, Ben Newman, and G. Agustin Markarian. Invited to revise and resubmit at American Political Science Review.
-:::
-:::::
 
 ------------------------------------------------------------------------
 

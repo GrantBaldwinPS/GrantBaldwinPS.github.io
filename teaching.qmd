@@ -10,6 +10,8 @@ Pol Sci 149: State, Local, and Spatial Politics
 :::
 
 UCLA — Summer 2026
+
+[Syllabus](files/PS_149_Syllabus.pdf)
 ::::
 
 :::: teaching-item
@@ -59,6 +61,8 @@ BYU — Spring 2020
 ::::
 
 ------------------------------------------------------------------------
+
+[Evidence of Teaching Effectiveness](files/Baldwin_Teaching_Evals.pdf){.btn-cv}
 
 ::: photo-aside-center
 ![Fielding student questions about the 2024 Presidential Election at the Fall 2024 meeting of the UCLA Center for the Study of Liberal Arts and Free Institutions.](files/img/presenting.jpg){fig-alt="Grant presenting a slide on swing state differences in a seminar room" width="510"}
